@@ -1,0 +1,10 @@
+body {
+    background-image: url("../images/cork-wallet.png");
+}
+
+#profile-pic {
+    max-width: 200px;
+    max-height: 200px;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
