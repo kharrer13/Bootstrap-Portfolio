@@ -8,3 +8,26 @@ body {
     margin-right: 1em;
     margin-bottom: 1em;
 }
+
+.wrapper {
+    background-color: #ffffff;
+    border: #cccccc solid 2px;
+}
+
+.icon {
+    max-width: 5em;
+    max-height: 5em;
+}
+
+.underline {
+    border-bottom: #cccccc solid 2px;
+}
+
+.heading-color {
+    color: #4aaaa5;
+}
+
+.brand-color {
+    background-color: #4aaaa5;
+    margin-left: 1em;
+}
