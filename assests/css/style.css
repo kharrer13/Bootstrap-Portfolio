@@ -12,12 +12,13 @@ body {
 .wrapper {
     background-color: #ffffff;
     border: #cccccc solid 2px;
+    overflow: auto;
 }
 
-.icon {
+/* .icon {
     max-width: 5em;
     max-height: 5em;
-}
+} */
 
 .underline {
     border-bottom: #cccccc solid 2px;
@@ -27,7 +28,23 @@ body {
     color: #4aaaa5;
 }
 
-.brand-color {
+.portPic {
+    margin-bottom: 1em;
+}
+
+#brand-color {
     background-color: #4aaaa5;
-    margin-left: 1em;
+    color: #ffffff;
+    margin-left: 0em;
+}
+
+#submit-but {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin-bottom: 1em;
+}
+
+#foot {
+    background-color: #666666;
+    border-top: #4aaaa5 solid 2px;
 }

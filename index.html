@@ -13,7 +13,7 @@
     <nav class="navbar navbar-default">
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand brand-color" href="#">Kyle Harrer</a>
+                <a class="navbar-brand" id="brand-color" href="#">Kyle Harrer</a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
@@ -29,7 +29,7 @@
         <div class="col-sm-6 col-md-6 wrapper">
             <div><h2 class="underline heading-color">About Me</h2></div>
             <div>
-                <img id="profile-pic" class="pull-left" src="assests/images/profile_pic_square.jpg" alt="place holder"> 
+                <img id="profile-pic" class="pull-left img-responsive" src="assests/images/profile_pic_square.jpg" alt="my profile pic"> 
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem aspernatur rerum animi facere hic atque nobis sed repudiandae obcaecati quae doloremque asperiores quo, iste enim ea porro recusandae. Cumque, distinctio.</p>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore voluptatem libero rerum incidunt consequatur reiciendis mollitia dolorum excepturi quibusdam officiis, cum, iusto dignissimos sit quia odit laboriosam quis dolorem! Accusamus?</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam atque dignissimos vel similique deleniti ut harum aspernatur. Incidunt nihil quis officiis quod minima iusto porro odio, similique deserunt voluptates. Veritatis.</p>
@@ -38,11 +38,18 @@
         <div class="col-sm-3 col-md-3 col-sm-offset-2 col-md-offset-2 wrapper">
             <div class="row">
                 <div class="col-md-12"><h3 class="underline heading-color">Contact Me</h3></div>
+            </div>
             <div class="row">
                 <div class="col-md-12">
-                    <div class="col-md-4"><img class="icon" src="assests/images/github.png" alt="github"></div>
-                    <div class="col-md-4"><img class="icon" src="assests/images/linkedin.png" alt="LinkedIn"></div>
-                    <div class="col-md-4"><img class="icon" src="assests/images/stackoverflow_.png" alt="StackOverflow"><div>
+                    <div class="col-md-4 col-sm-7 col-xs-4">
+                        <img class="icon img-responsive" src="assests/images/linkedin.png" alt="LinkedIn">
+                    </div>
+                    <div class="col-md-4 col-sm-7 col-xs-4">
+                        <img class="icon img-responsive" src="assests/images/github.png" alt="github">
+                    </div>
+                    <div class="col-md-4 col-sm-7 col-xs-4">
+                        <img class="icon img-responsive" src="assests/images/stackoverflow_.png" alt="StackOverflow">
+                    </div>
                 </div>
             </div>
         </div>
@@ -50,10 +57,11 @@
 
     <br>
 
-    <div class="navbar navbar-default navbar-fixed-bottom float-bottom">
+    <div id="foot" class="navbar">
         <div class="container">
             <div class="col-md-2 col-md-offset-5">&copy; 2018 Kyle Harrer</div>
         </div>
     </div>
 </body>
 </html>
+
